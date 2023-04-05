@@ -145,6 +145,19 @@ int main() {
     // Criação da árvore binária de busca de funcionários
 
 
+    Funcionario f1("ADALBERTO SILVA DO NASCIMENTO","nd","ASSESSOR III",5400,3725,9125,"GABINETE DO PREFEITO","Viaduto","DO CHA",15,"5º ANDAR","40 H");
+    Funcionario f2("ADENIZE CONRADO DOS SANTOS","nd","ASSESSOR II",3600,1283.4,4883.4,"GABINETE DO PREFEITO","Viaduto","DO CHA",15,"5º ANDAR","40 H");
+    Funcionario f3("ADILON FRANCISCO DOS SANTOS","nd","ASSESSOR I", 1800,1441.8, 3241.8,"GABINETE DO SECRETARIO","Viaduto","DO CHA",15,"11º ANDAR","40 H");
+    Funcionario f4("ADRIANA APARECIDA FERNANDES BIFULCO","nd","ASSESSOR III",5400,2300,7700,"COORDENACAO DE COMUNICACAO DIGITAL","Viaduto","DO CHA",15,"6º ANDAR","40 H");
+    Funcionario f5("FOX","nd","ASSESSOR III",5400,2300,7700,"COORDENACAO DE COMUNICACAO DIGITAL","Viaduto","DO CHA",15,"6º ANDAR","40 H");
+
+    bst.inserir(f1);
+    bst.inserir(f2);
+    bst.inserir(f3);
+    bst.inserir(f4);
+    bst.inserir(f5);
+
+
     int opcao;
     do {
         // Exibe o menu de opções

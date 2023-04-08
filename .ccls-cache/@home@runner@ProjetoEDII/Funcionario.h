@@ -1,3 +1,8 @@
+// Daniela Brazolin Flauto - 42130581
+// Júlia Rampani -	42119529
+// Marcello Gonzatto Birkan -	42020034
+// Raphael Iniesta  Reis -	42143128
+
 // Verifica se o símbolo FUNCIONARIO_H já foi definido, caso contrário, o
 // define.
 #ifndef FUNCIONARIO_H
@@ -9,57 +14,40 @@
 // Declaração da classe Funcionario.
 class Funcionario {
 public:
-    // Construtor da classe Funcionario com os parâmetros necessários.
-
-
-    //Funcionario(int Excecao, const std::string &Nome_completo, const std::string &Cargo_Base,
-    //            const std::string &Cargo_em_Comissao, double Remuneracao_do_Mes, double Demais_Elementos_da_Remuneracao,
-    //            double Remuneracao_Bruta, const std::string &Unidade, const std::string &Tp_Log,
-    //            const std::string &Logradouro, int Numero, const std::string &Complemento,
-    //            const std::string &Jornada);
-
-
-
-    Funcionario(const std::string &Nome_completo, const std::string &Cargo_Base,
-                const std::string &Cargo_em_Comissao, double Remuneracao_do_Mes, double Demais_Elementos_da_Remuneracao,
-                double Remuneracao_Bruta, const std::string &Unidade, const std::string &Tp_Log,
-                const std::string &Logradouro, int Numero, const std::string &Complemento,
-                const std::string &Jornada);
-
-
-
-
-
-    //int getExcecao() const;
-    const std::string &getNome_completo() const;
-    const std::string &getCargo_Base() const;
-    const std::string &getCargo_em_Comissao() const;
-    double getRemuneracao_do_Mes() const;
-    double getDemais_Elementos_da_Remuneracao() const;
-    double getRemuneracao_Bruta() const;
-    const std::string &getUnidade() const;
-    const std::string &getTp_Log() const;
-    const std::string &getLogradouro() const;
-    int getNumero() const;
-    const std::string &getComplemento() const;
-    const std::string &getJornada() const;
+  Funcionario(const std::string &Nome_completo, const std::string &Cargo_Base,
+              const std::string &Cargo_em_Comissao, double Remuneracao_do_Mes,
+              double Demais_Elementos_da_Remuneracao, double Remuneracao_Bruta,
+              const std::string &Unidade, const std::string &Tp_Log,
+              const std::string &Logradouro, int Numero,
+              const std::string &Complemento, const std::string &Jornada);
+  // int getExcecao() const;
+  const std::string &getNome_completo() const;
+  const std::string &getCargo_Base() const;
+  const std::string &getCargo_em_Comissao() const;
+  double getRemuneracao_do_Mes() const;
+  double getDemais_Elementos_da_Remuneracao() const;
+  double getRemuneracao_Bruta() const;
+  const std::string &getUnidade() const;
+  const std::string &getTp_Log() const;
+  const std::string &getLogradouro() const;
+  int getNumero() const;
+  const std::string &getComplemento() const;
+  const std::string &getJornada() const;
 
 private:
-
-    int Excecao;
-    std::string Nome_completo;
-    std::string Cargo_Base;
-    std::string Cargo_em_Comissao;
-    double Remuneracao_do_Mes;
-    double Demais_Elementos_da_Remuneracao;
-    double Remuneracao_Bruta;
-    std::string Unidade;
-    std::string Tp_Log;
-    std::string Logradouro;
-    int Numero;
-    std::string Complemento;
-    std::string Jornada;
-
+  int Excecao;
+  std::string Nome_completo;
+  std::string Cargo_Base;
+  std::string Cargo_em_Comissao;
+  double Remuneracao_do_Mes;
+  double Demais_Elementos_da_Remuneracao;
+  double Remuneracao_Bruta;
+  std::string Unidade;
+  std::string Tp_Log;
+  std::string Logradouro;
+  int Numero;
+  std::string Complemento;
+  std::string Jornada;
 };
 
 // Finaliza a verificação da diretiva de pré-processador.
